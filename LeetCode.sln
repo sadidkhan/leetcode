@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "LeetCode\LeetCode.csproj", "{B1D72905-C0B0-498D-B528-0E77FDFE5E66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Best Time to Buy and Sell Stock II", "Best Time to Buy and Sell Stock II\Best Time to Buy and Sell Stock II.csproj", "{FD8AA608-0005-43D3-804B-F9F5E3510A99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "704 Binary Search", "704 Binary Search\704 Binary Search.csproj", "{A6EF96CE-CA8E-4D94-988B-3A01449FA67B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "33 Search in Rotated Sorted Array", "33 Search in Rotated Sorted Array\33 Search in Rotated Sorted Array.csproj", "{ABCD0CDC-EE32-4904-9228-C0C21CB2372E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "69 sqrt(x)", "69 sqrt(x)\69 sqrt(x).csproj", "{9A598DEF-9092-4207-A1DE-E20546D17096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "633. Sum of Square Numbers", "633. Sum of Square Numbers\633. Sum of Square Numbers.csproj", "{748A4E92-23FE-4728-A704-A63ED9780EA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1D72905-C0B0-498D-B528-0E77FDFE5E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D72905-C0B0-498D-B528-0E77FDFE5E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D72905-C0B0-498D-B528-0E77FDFE5E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D72905-C0B0-498D-B528-0E77FDFE5E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8AA608-0005-43D3-804B-F9F5E3510A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8AA608-0005-43D3-804B-F9F5E3510A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8AA608-0005-43D3-804B-F9F5E3510A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8AA608-0005-43D3-804B-F9F5E3510A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6EF96CE-CA8E-4D94-988B-3A01449FA67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6EF96CE-CA8E-4D94-988B-3A01449FA67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6EF96CE-CA8E-4D94-988B-3A01449FA67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6EF96CE-CA8E-4D94-988B-3A01449FA67B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCD0CDC-EE32-4904-9228-C0C21CB2372E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCD0CDC-EE32-4904-9228-C0C21CB2372E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCD0CDC-EE32-4904-9228-C0C21CB2372E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCD0CDC-EE32-4904-9228-C0C21CB2372E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A598DEF-9092-4207-A1DE-E20546D17096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A598DEF-9092-4207-A1DE-E20546D17096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A598DEF-9092-4207-A1DE-E20546D17096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A598DEF-9092-4207-A1DE-E20546D17096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748A4E92-23FE-4728-A704-A63ED9780EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748A4E92-23FE-4728-A704-A63ED9780EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748A4E92-23FE-4728-A704-A63ED9780EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748A4E92-23FE-4728-A704-A63ED9780EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD9F45FB-F88A-4091-B1A9-4EE575D5D229}
+	EndGlobalSection
+EndGlobal
