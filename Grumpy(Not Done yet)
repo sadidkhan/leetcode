@@ -13,6 +13,9 @@
 [7,8,8,6]
 [0,1,0,1]
 3
+[9,10,4,5]
+[1,0,1,1]
+1
 
 public class Solution {
     public int MaxSatisfied(int[] customers, int[] grumpy, int X) {
