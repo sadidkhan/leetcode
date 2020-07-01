@@ -1,0 +1,53 @@
+[1,0,1,2,1,1,7,5]
+[0,1,0,1,0,1,0,1]
+3
+[1]
+[0]
+1
+[4,10,10]
+[1,1,0]
+2
+[10,1,7]
+[0,0,0]
+2
+[7,8,8,6]
+[0,1,0,1]
+3
+
+public class Solution {
+    public int MaxSatisfied(int[] customers, int[] grumpy, int X) {
+        int maxSum = 0;
+        int maGrumpy = 0;
+        int windowSum = 0;
+        int windowGrumpy = 0;
+        int start = 0;
+        
+        int powerIndexStart = 0;
+        for(int i=0; i< customers.Length; i++) {
+            windowSum += customers[i];
+            windowGrumpy += grumpy[i]; 
+            if(i >= X-1) {
+                if(windowGrumpy >= maGrumpy && windowSum > maxSum){
+                    maGrumpy = windowGrumpy;
+                    // maxSum = Math.Max(maxSum, windowSum);
+                    maxSum = windowSum;
+                    powerIndexStart = start;
+                }
+                
+                windowSum -= customers[start];
+                windowGrumpy -= grumpy[start];
+                start++;
+            }
+        }
+        Console.Write(maxSum);
+        Console.Write(" power: "+ powerIndexStart);
+        
+        for(int i=0; i< customers.Length; i++) {
+            if((i < powerIndexStart || i> powerIndexStart+X-1) && grumpy[i] != 1) {
+                maxSum += customers[i];
+            }
+        }
+        Console.Write(" " + maxSum + "\n");
+        return maxSum;
+    }
+}
